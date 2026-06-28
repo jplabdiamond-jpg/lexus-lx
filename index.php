@@ -252,10 +252,20 @@ if (is_file($libPath)) {
 <!-- Hero -->
 <section id="hero" class="hero">
   <h2 class="sr-only">レクサスLX、それ以外は買いません。一台入魂、専門店だから出せる業界最高水準の査定額。買取国内最高水準・即日お振込み対応。</h2>
-  <picture class="hero-img-wrap">
-    <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile.webp" width="1440" height="2560">
-    <img src="lexus_lx_hero_metal.webp" alt="レクサスLX、それ以外は買いません。専門店だから出せる業界最高水準の査定額" class="hero-img" width="2560" height="1440" fetchpriority="high" decoding="async">
-  </picture>
+  <div class="hero-stage">
+    <picture class="hero-img-wrap">
+      <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile.webp" width="1440" height="2560">
+      <img src="lexus_lx_hero_metal.webp" alt="レクサスLX、それ以外は買いません。専門店だから出せる業界最高水準の査定額" class="hero-img" width="2560" height="1440" fetchpriority="high" decoding="async">
+    </picture>
+    <!-- ヒーロー上部キャッチコピー -->
+    <p class="hero-catch"><span>レクサスLX</span>しか買いません！</p>
+    <!-- ヒーロー左側メタリックバッジ -->
+    <ul class="hero-badges">
+      <li class="hero-badge"><span class="hb-main">高価買取！</span></li>
+      <li class="hero-badge"><span class="hb-main">現金買取！</span></li>
+      <li class="hero-badge"><span class="hb-main">即日見積！</span></li>
+    </ul>
+  </div>
   <div class="hero-cta-wrap">
     <a href="#line-cta" class="hero-cta">
       <span class="cta-label">▼ 30秒でカンタン ▼</span>
