@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+.ftp-config
+.ftp-config.json
+_preview.html
+_preview_inline.html
