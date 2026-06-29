@@ -55,7 +55,7 @@ if (is_file($libPath)) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260629x">
+<link rel="stylesheet" href="style.css?v=20260629y">
 
 <!-- 構造化データ: AutoDealer (LocalBusiness) -->
 <script type="application/ld+json">
@@ -796,14 +796,17 @@ if (is_file($libPath)) {
   <a href="tel:0586-47-6055" class="fcta-btn fcta-tel">
     <svg class="fcta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/></svg>
     <span class="fcta-label">電話で確認</span>
+    <span class="fcta-shine" aria-hidden="true"></span>
   </a>
   <a href="https://lin.ee/XyL9Wbh" class="fcta-btn fcta-line" target="_blank" rel="noopener">
     <svg class="fcta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M12 2C6.48 2 2 6.05 2 11.08c0 3.52 2.22 6.6 5.56 8.34l-.56 2.08c-.08.3.23.56.5.39l2.55-1.57c.79.11 1.6.17 2.45.17 5.52 0 10-4.05 10-9.08C22 6.05 17.52 2 12 2zm-3 11.5H7v-5h1.5v5zm3 0h-1.5V8h1.5v5.5zm3 0H13.5v-3h1.5v3z"/></svg>
     <span class="fcta-label">LINEで確認</span>
+    <span class="fcta-shine" aria-hidden="true"></span>
   </a>
   <a href="#assessment-form" class="fcta-btn fcta-mail" id="fcta-form-btn">
     <svg class="fcta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
     <span class="fcta-label">無料査定</span>
+    <span class="fcta-shine" aria-hidden="true"></span>
   </a>
 </div>
 
