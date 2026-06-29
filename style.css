@@ -176,7 +176,7 @@ section{padding:78px 0;position:relative}
 /* 必要書類セクション背景（横100%・中央表示・黒オーバーレイ・固定パララックス） */
 .docs{
   position:relative;
-  background:#08090b url("lexus_lx_hero_metal.webp") no-repeat center center;
+  background:#08090b url("lexus_lx_pic1.webp") no-repeat center center;
   background-size:cover;
   background-attachment:fixed;
 }
@@ -521,7 +521,7 @@ section{padding:78px 0;position:relative}
   .value-grid{grid-template-columns:1fr}
   .doc-grid{grid-template-columns:1fr}
   .models{background-image:url("lexus_lx_hero_metal_mobile.webp")}
-  .docs{background-image:url("lexus_lx_hero_metal_mobile.webp");background-attachment:fixed}
+  .docs{background-image:url("lexus_lx_pic1.webp");background-attachment:fixed}
   .trust-inner{flex-direction:column;text-align:center;padding:26px 20px}
   .trust-cta{padding:16px 22px;font-size:1.18rem;white-space:nowrap}
   .company-table,.company-table tbody,.company-table tr,.company-table th,.company-table td{display:block;width:100%}
