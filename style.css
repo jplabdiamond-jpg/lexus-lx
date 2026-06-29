@@ -106,13 +106,13 @@ strong{color:var(--silver-bright);font-weight:700}
   -webkit-background-clip:text;background-clip:text;color:transparent;
   white-space:nowrap;animation:silverShimmer 4.5s linear infinite;
 }
-.header-cta{display:flex;gap:10px;list-style:none}
+.header-cta{display:flex;gap:12px;list-style:none}
 .header-cta a{
   display:flex;flex-direction:column;align-items:center;justify-content:center;
-  padding:6px 14px;border-radius:6px;line-height:1.25;
+  padding:9px 22px;border-radius:8px;line-height:1.3;
 }
-.hcta-label{font-size:.6rem;color:var(--text-muted)}
-.hcta-num{font-size:.92rem;font-weight:700}
+.hcta-label{font-size:.72rem;color:var(--text-muted)}
+.hcta-num{font-size:1.18rem;font-weight:700}
 .hcta-tel{border:1px solid var(--line-silver)}
 .hcta-tel .hcta-num{color:var(--silver-bright)}
 .hcta-line{background:var(--line-cta)}
@@ -159,12 +159,38 @@ strong{color:var(--silver-bright);font-weight:700}
 /* ---------- Sections base ---------- */
 section{padding:78px 0;position:relative}
 .strong-buy,.trust,.company{background:var(--bg-soft)}
-.reasons,.flow,.qa,.value{background:var(--bg)}
+.flow,.qa,.value{background:var(--bg)}
+/* 選ばれる理由：明るいシルバーマーブル背景＋暗色テキスト */
+.reasons{
+  position:relative;
+  background:#cfd2d6 url("bg_reasons_marble.webp") no-repeat center center;
+  background-size:cover;
+}
+.reasons .section-title .st-en{
+  background:none;-webkit-background-clip:initial;background-clip:initial;
+  -webkit-text-fill-color:#1f2226;color:#1f2226;animation:none;
+}
+.reasons .section-title .st-en::after{background:#2b2e33;box-shadow:none}
+.reasons .section-title .st-jp{color:#15171a}
+.reasons .section-title .st-jp strong{
+  background:none;-webkit-background-clip:initial;background-clip:initial;
+  -webkit-text-fill-color:#0e1013;color:#0e1013;animation:none;
+}
+.reasons .reason-list li{
+  background:rgba(255,255,255,.82);border-color:rgba(0,0,0,.12);
+  backdrop-filter:blur(2px);
+}
+.reasons .reason-list h3{color:#15171a}
+.reasons .reason-list p{color:#3a3d42}
+.reasons .reason-num{-webkit-text-stroke-color:rgba(0,0,0,.28)}
+.reasons .reason-list li:hover{border-color:rgba(0,0,0,.25)}
+.reasons .reason-list li:hover .reason-num{-webkit-text-stroke-color:#15171a;text-shadow:none}
+.reasons::before{background:linear-gradient(90deg,transparent,#5f6166,transparent)!important}
 
 /* グレードセクション背景（横100%・上側表示・黒オーバーレイ） */
 .models{
   position:relative;
-  background:#08090b url("lexus_lx_hero_metal.webp") no-repeat top center;
+  background:#08090b url("bg_models_triangle.webp") no-repeat center center;
   background-size:cover;
 }
 .models::after{
