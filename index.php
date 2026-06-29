@@ -254,7 +254,7 @@ if (is_file($libPath)) {
   <h2 class="sr-only">レクサスLX、それ以外は買いません。一台入魂、専門店だから出せる業界最高水準の査定額。買取国内最高水準・即日お振込み対応。</h2>
   <div class="hero-stage">
     <picture class="hero-img-wrap">
-      <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile2.webp" width="864" height="1821">
+      <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile2.webp?v=2" width="864" height="1694">
       <img src="lexus_lx_hero_metal4.webp" alt="レクサスLXしか買いません！専門店だからこそ出来る高価買取・即日見積もり・現金買取に対応" class="hero-img" width="1672" height="941" fetchpriority="high" decoding="async">
     </picture>
   </div>
