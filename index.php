@@ -55,7 +55,7 @@ if (is_file($libPath)) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260629r">
+<link rel="stylesheet" href="style.css?v=20260629s">
 
 <!-- 構造化データ: AutoDealer (LocalBusiness) -->
 <script type="application/ld+json">
@@ -254,17 +254,9 @@ if (is_file($libPath)) {
   <h2 class="sr-only">レクサスLX、それ以外は買いません。一台入魂、専門店だから出せる業界最高水準の査定額。買取国内最高水準・即日お振込み対応。</h2>
   <div class="hero-stage">
     <picture class="hero-img-wrap">
-      <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile.webp" width="1440" height="2560">
-      <img src="lexus_lx_hero_metal.webp" alt="レクサスLX、それ以外は買いません。専門店だから出せる業界最高水準の査定額" class="hero-img" width="2560" height="1440" fetchpriority="high" decoding="async">
+      <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile2.webp" width="864" height="1821">
+      <img src="lexus_lx_hero_metal4.webp" alt="レクサスLXしか買いません！専門店だからこそ出来る高価買取・即日見積もり・現金買取に対応" class="hero-img" width="1672" height="941" fetchpriority="high" decoding="async">
     </picture>
-    <!-- ヒーロー上部キャッチコピー（画像） -->
-    <img src="title_lx.webp?v=2" alt="レクサスLXしか買いません！" class="hero-catch-img" width="1500" height="1015" fetchpriority="high" decoding="async">
-    <!-- ヒーロー左側メタリックバッジ（画像3種） -->
-    <ul class="hero-badges">
-      <li class="hero-badge"><img src="badge_high.webp" alt="高価買取！" width="520" height="693" loading="lazy" decoding="async"></li>
-      <li class="hero-badge"><img src="badge_cash.webp" alt="現金買取！" width="520" height="693" loading="lazy" decoding="async"></li>
-      <li class="hero-badge"><img src="badge_sameday.webp" alt="即日見積！" width="520" height="693" loading="lazy" decoding="async"></li>
-    </ul>
   </div>
   <div class="hero-cta-wrap">
     <a href="#line-cta" class="hero-cta">

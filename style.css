@@ -139,34 +139,6 @@ strong{color:var(--silver-bright);font-weight:700}
 .hero-img-wrap{position:relative;display:block;width:100%;line-height:0;animation:fadeIn 1.4s ease both}
 .hero-img{width:100%;height:auto;display:block;object-fit:cover}
 
-/* ===== ヒーロー上部キャッチコピー（画像・上部ほぼ全幅で最大化） ===== */
-.hero-catch-img{
-  position:absolute;top:2.5%;left:0;right:0;margin-inline:auto;z-index:3;
-  width:auto;height:clamp(180px,34vw,470px);max-width:96%;
-  filter:drop-shadow(0 8px 20px rgba(0,0,0,.65));
-  animation:heroFadeUp 1s ease .3s both;
-}
-@keyframes heroFadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-
-/* ===== ヒーロー左側メタリックバッジ（逆三角：上1・下2・大きく展開） ===== */
-.hero-badges{
-  position:absolute;left:15.5%;bottom:6%;z-index:3;
-  list-style:none;display:flex;flex-wrap:wrap;
-  width:min(40%,430px);gap:0;margin:0;padding:0;
-  justify-content:center;
-}
-.hero-badge{margin:0;padding:0;display:flex;justify-content:center}
-/* 上段：1つ目を中央に単独配置（全幅） */
-.hero-badge:nth-child(1){flex:0 0 100%;margin-bottom:-22px}
-/* 下段：2つ目・3つ目を横並び・間0 */
-.hero-badge:nth-child(2),.hero-badge:nth-child(3){flex:0 0 50%}
-.hero-badge:nth-child(2){justify-content:flex-end;margin-right:-10px}
-.hero-badge:nth-child(3){justify-content:flex-start;margin-left:-10px}
-.hero-badge img{
-  width:clamp(140px,15vw,215px);height:auto;display:block;
-  filter:drop-shadow(0 6px 16px rgba(0,0,0,.55));
-}
-
 .hero-cta-wrap{margin-top:36px;animation:fadeUp 1s ease .5s both}
 .hero-cta{
   position:relative;overflow:hidden;
@@ -560,19 +532,6 @@ section{padding:78px 0;position:relative}
   .site-footer{padding-bottom:84px}
   section{padding:60px 0}
   .st-jp{font-size:1.16rem}
-  /* ヒーロー：タイトルを車体上、バッジを車体下に横3列 */
-  .hero-catch-img{
-    top:3%;left:50%;transform:translateX(-50%);
-    width:min(90%,600px);
-  }
-  .hero-badges{
-    left:50%;transform:translateX(-50%);bottom:3.5%;
-    flex-wrap:nowrap;justify-content:center;gap:2.5vw;width:96%;
-  }
-  .hero-badge:nth-child(1),
-  .hero-badge:nth-child(2),
-  .hero-badge:nth-child(3){flex:0 0 auto}
-  .hero-badge img{width:min(27vw,140px)}
 }
 @media (max-width:520px){
   .model-list{grid-template-columns:repeat(2,1fr)}
