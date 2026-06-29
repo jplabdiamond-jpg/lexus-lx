@@ -55,7 +55,7 @@ if (is_file($libPath)) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20260629">
 
 <!-- 構造化データ: AutoDealer (LocalBusiness) -->
 <script type="application/ld+json">
@@ -257,13 +257,13 @@ if (is_file($libPath)) {
       <source media="(max-width:768px)" srcset="lexus_lx_hero_metal_mobile.webp" width="1440" height="2560">
       <img src="lexus_lx_hero_metal.webp" alt="レクサスLX、それ以外は買いません。専門店だから出せる業界最高水準の査定額" class="hero-img" width="2560" height="1440" fetchpriority="high" decoding="async">
     </picture>
-    <!-- ヒーロー上部キャッチコピー -->
-    <p class="hero-catch"><span>レクサスLX</span>しか買いません！</p>
-    <!-- ヒーロー左側メタリックバッジ -->
+    <!-- ヒーロー上部キャッチコピー（画像） -->
+    <img src="title_lx.webp" alt="レクサスLXしか買いません！" class="hero-catch-img" width="900" height="609" fetchpriority="high" decoding="async">
+    <!-- ヒーロー左側メタリックバッジ（画像3種） -->
     <ul class="hero-badges">
-      <li class="hero-badge"><span class="hb-main">高価買取！</span></li>
-      <li class="hero-badge"><span class="hb-main">現金買取！</span></li>
-      <li class="hero-badge"><span class="hb-main">即日見積！</span></li>
+      <li class="hero-badge"><img src="badge_high.webp" alt="高価買取！" width="520" height="693" loading="lazy" decoding="async"></li>
+      <li class="hero-badge"><img src="badge_cash.webp" alt="現金買取！" width="520" height="693" loading="lazy" decoding="async"></li>
+      <li class="hero-badge"><img src="badge_sameday.webp" alt="即日見積！" width="520" height="693" loading="lazy" decoding="async"></li>
     </ul>
   </div>
   <div class="hero-cta-wrap">
