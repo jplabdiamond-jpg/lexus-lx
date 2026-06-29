@@ -141,7 +141,7 @@ strong{color:var(--silver-bright);font-weight:700}
 
 /* ===== ヒーロー上部キャッチコピー（画像・上部ほぼ全幅で最大化） ===== */
 .hero-catch-img{
-  position:absolute;top:3%;left:0;right:0;margin-inline:auto;z-index:3;
+  position:absolute;top:0.5%;left:0;right:0;margin-inline:auto;z-index:3;
   width:min(72%,1120px);height:auto;
   filter:drop-shadow(0 8px 20px rgba(0,0,0,.65));
   animation:heroFadeUp 1s ease .3s both;
@@ -150,7 +150,7 @@ strong{color:var(--silver-bright);font-weight:700}
 
 /* ===== ヒーロー左側メタリックバッジ（逆三角：上1・下2・大きく展開） ===== */
 .hero-badges{
-  position:absolute;left:9%;bottom:6%;z-index:3;
+  position:absolute;left:15.5%;bottom:6%;z-index:3;
   list-style:none;display:flex;flex-wrap:wrap;
   width:min(40%,430px);gap:0;margin:0;padding:0;
   justify-content:center;
