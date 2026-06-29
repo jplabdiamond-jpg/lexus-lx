@@ -55,7 +55,7 @@ if (is_file($libPath)) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260629y">
+<link rel="stylesheet" href="style.css?v=20260629z">
 
 <!-- 構造化データ: AutoDealer (LocalBusiness) -->
 <script type="application/ld+json">

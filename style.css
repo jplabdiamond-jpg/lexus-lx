@@ -172,6 +172,16 @@ section{padding:78px 0;position:relative}
   pointer-events:none;
 }
 .reasons .container{position:relative;z-index:1}
+/* 見出しを白に近い色に */
+.reasons .section-title .st-en{
+  background:none;-webkit-background-clip:initial;background-clip:initial;
+  -webkit-text-fill-color:#f5f7fa;color:#f5f7fa;animation:none;
+}
+.reasons .section-title .st-jp{color:#fafbfc}
+.reasons .section-title .st-jp strong{
+  background:none;-webkit-background-clip:initial;background-clip:initial;
+  -webkit-text-fill-color:#ffffff;color:#ffffff;animation:none;
+}
 
 /* グレードセクション背景（横100%・上側表示・黒オーバーレイ） */
 .models{
