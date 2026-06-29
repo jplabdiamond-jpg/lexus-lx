@@ -498,7 +498,7 @@ section{padding:78px 0;position:relative}
 }
 .fcta-icon{display:block;flex-shrink:0;position:relative;z-index:1;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.4))}
 .fcta-label{line-height:1;white-space:nowrap;position:relative;z-index:1;text-shadow:0 1px 3px rgba(0,0,0,0.5)}
-/* 一定間隔のキラッと光るシャイン（0.2秒で横断／約4.5秒周期） */
+/* 一定間隔のキラッと光るシャイン（0.5秒で横断／約4.5秒周期） */
 .fcta-shine{
   content:'';position:absolute;top:0;bottom:0;left:0;width:55%;z-index:2;pointer-events:none;
   transform:translateX(-180%) skewX(-22deg);
@@ -510,7 +510,7 @@ section{padding:78px 0;position:relative}
 .fcta-mail .fcta-shine{animation-delay:1s}
 @keyframes fctaShine{
   0%{transform:translateX(-180%) skewX(-22deg)}
-  4.4%{transform:translateX(320%) skewX(-22deg)}
+  11.1%{transform:translateX(320%) skewX(-22deg)}
   100%{transform:translateX(320%) skewX(-22deg)}
 }
 @media (prefers-reduced-motion:reduce){.fcta-shine{animation:none;display:none}}
