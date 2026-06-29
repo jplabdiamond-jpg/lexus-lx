@@ -141,24 +141,27 @@ strong{color:var(--silver-bright);font-weight:700}
 
 /* ===== ヒーロー上部キャッチコピー（画像・上部ほぼ全幅で最大化） ===== */
 .hero-catch-img{
-  position:absolute;top:8%;left:35%;transform:translateX(-50%);z-index:3;
-  width:auto;height:clamp(150px,28vw,380px);
-  filter:drop-shadow(0 6px 16px rgba(0,0,0,.6));
-  animation:fadeUp 1s ease .3s both;
+  position:absolute;top:3%;left:0;right:0;margin-inline:auto;z-index:3;
+  width:min(72%,1120px);height:auto;
+  filter:drop-shadow(0 8px 20px rgba(0,0,0,.65));
+  animation:heroFadeUp 1s ease .3s both;
 }
+@keyframes heroFadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
 
 /* ===== ヒーロー左側メタリックバッジ（逆三角：上1・下2・大きく展開） ===== */
 .hero-badges{
-  position:absolute;left:4%;bottom:6%;z-index:3;
+  position:absolute;left:9%;bottom:6%;z-index:3;
   list-style:none;display:flex;flex-wrap:wrap;
-  width:min(40%,470px);gap:clamp(10px,1.4vw,24px);margin:0;padding:0;
+  width:min(40%,430px);gap:0;margin:0;padding:0;
   justify-content:center;
 }
 .hero-badge{margin:0;padding:0;display:flex;justify-content:center}
 /* 上段：1つ目を中央に単独配置（全幅） */
-.hero-badge:nth-child(1){flex:0 0 100%}
-/* 下段：2つ目・3つ目を横並び */
-.hero-badge:nth-child(2),.hero-badge:nth-child(3){flex:0 0 calc(50% - clamp(5px,.7vw,12px))}
+.hero-badge:nth-child(1){flex:0 0 100%;margin-bottom:-22px}
+/* 下段：2つ目・3つ目を横並び・間0 */
+.hero-badge:nth-child(2),.hero-badge:nth-child(3){flex:0 0 50%}
+.hero-badge:nth-child(2){justify-content:flex-end;margin-right:-10px}
+.hero-badge:nth-child(3){justify-content:flex-start;margin-left:-10px}
 .hero-badge img{
   width:clamp(140px,15vw,215px);height:auto;display:block;
   filter:drop-shadow(0 6px 16px rgba(0,0,0,.55));
