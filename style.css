@@ -141,8 +141,8 @@ strong{color:var(--silver-bright);font-weight:700}
 
 /* ===== ヒーロー上部キャッチコピー（画像・上部ほぼ全幅で最大化） ===== */
 .hero-catch-img{
-  position:absolute;top:1%;left:0;right:0;margin-inline:auto;z-index:3;
-  width:min(72%,1120px);height:auto;
+  position:absolute;top:4%;left:0;right:0;margin-inline:auto;z-index:3;
+  width:auto;height:clamp(140px,24vw,310px);max-width:94%;
   filter:drop-shadow(0 8px 20px rgba(0,0,0,.65));
   animation:heroFadeUp 1s ease .3s both;
 }
