@@ -160,32 +160,18 @@ strong{color:var(--silver-bright);font-weight:700}
 section{padding:78px 0;position:relative}
 .strong-buy,.trust,.company{background:var(--bg-soft)}
 .flow,.qa,.value{background:var(--bg)}
-/* 選ばれる理由：明るいシルバーマーブル背景＋暗色テキスト */
+/* 選ばれる理由：シルバーマーブル背景＋黒40%オーバーレイ（テキストは元のシルバー） */
 .reasons{
   position:relative;
-  background:#cfd2d6 url("bg_reasons_marble.webp") no-repeat center center;
+  background:#08090b url("bg_reasons_marble.webp") no-repeat center center;
   background-size:cover;
 }
-.reasons .section-title .st-en{
-  background:none;-webkit-background-clip:initial;background-clip:initial;
-  -webkit-text-fill-color:#1f2226;color:#1f2226;animation:none;
+.reasons::after{
+  content:"";position:absolute;inset:0;z-index:0;
+  background:rgba(0,0,0,.4);
+  pointer-events:none;
 }
-.reasons .section-title .st-en::after{background:#2b2e33;box-shadow:none}
-.reasons .section-title .st-jp{color:#15171a}
-.reasons .section-title .st-jp strong{
-  background:none;-webkit-background-clip:initial;background-clip:initial;
-  -webkit-text-fill-color:#0e1013;color:#0e1013;animation:none;
-}
-.reasons .reason-list li{
-  background:rgba(255,255,255,.82);border-color:rgba(0,0,0,.12);
-  backdrop-filter:blur(2px);
-}
-.reasons .reason-list h3{color:#15171a}
-.reasons .reason-list p{color:#3a3d42}
-.reasons .reason-num{-webkit-text-stroke-color:rgba(0,0,0,.28)}
-.reasons .reason-list li:hover{border-color:rgba(0,0,0,.25)}
-.reasons .reason-list li:hover .reason-num{-webkit-text-stroke-color:#15171a;text-shadow:none}
-.reasons::before{background:linear-gradient(90deg,transparent,#5f6166,transparent)!important}
+.reasons .container{position:relative;z-index:1}
 
 /* グレードセクション背景（横100%・上側表示・黒オーバーレイ） */
 .models{
