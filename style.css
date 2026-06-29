@@ -133,7 +133,7 @@ strong{color:var(--silver-bright);font-weight:700}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .hero{
   position:relative;display:flex;flex-direction:column;align-items:center;
-  text-align:center;padding:62px 0 60px;background:#000;overflow:hidden;
+  text-align:center;padding:66px 0 60px;background:#000;overflow:hidden;
 }
 .hero-stage{position:relative;width:100%}
 .hero-img-wrap{position:relative;display:block;width:100%;line-height:0;animation:fadeIn 1.4s ease both}
@@ -141,7 +141,7 @@ strong{color:var(--silver-bright);font-weight:700}
 
 /* ===== ヒーロー上部キャッチコピー（画像・上部ほぼ全幅で最大化） ===== */
 .hero-catch-img{
-  position:absolute;top:0.5%;left:0;right:0;margin-inline:auto;z-index:3;
+  position:absolute;top:1%;left:0;right:0;margin-inline:auto;z-index:3;
   width:min(72%,1120px);height:auto;
   filter:drop-shadow(0 8px 20px rgba(0,0,0,.65));
   animation:heroFadeUp 1s ease .3s both;
